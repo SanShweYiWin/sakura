@@ -1,0 +1,214 @@
+:root{
+    --primary: #FF782E;
+    --secondary: #141416;
+}
+
+header{
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Start Navbar Section */
+
+.navbars{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* for brand logo */
+
+.logos{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.brandnames{
+    color: var(--primary);
+}
+.brandnames span{
+    text-transform: capitalize;
+}
+
+.navbar-btns{
+    color: var(--primary);
+    border:3px solid var(--primary);
+}
+
+.navbar-btns:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbaruls li a{
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.navbaruls li a:hover{
+    color: var(--secondary);
+    background-color: var(--primary);
+    border-radius: 5px;
+}
+
+.navbaruls li a:focus{
+    color: var(--secondary);
+}
+
+/* .navbaruls li a:active{
+    color: var(--color2);
+} */
+/* End Navbar Section */
+
+/* start banner */
+.banner-btns{
+    transform: translateY(300%);
+
+}
+/* end banner */
+
+/* Start Menu Section */
+.menu-sections{
+    background-color: var(--primary);
+    height: 100vh;
+}
+
+.menu-headings{
+    /* color: var(--secondary);
+    text-shadow: 0 0 10px black; */
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-item{
+    /* background-color: var(--secondary); */
+    padding-bottom: 50px;
+}
+
+.btn{
+    background-color: var(--secondary);
+    color: var(--primary);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover{
+    background-color:#fff;
+    color: var(--primary);
+}
+
+.btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+/* End Menu Section */
+
+/* Start Juice Section */
+.juice-sections{
+    background: var(--secondary);
+}
+
+.juice-headings{
+    color: var(--primary);
+    /* text-shadow: 0 0 10px black; */
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.juice-imgs{
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px var(--primary);
+
+    overflow: hidden;
+}
+
+.details{
+    width: 220px;
+    height: 220px;
+    color: var(--primary);
+    background-color: var(--secondary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: all 0.5s ease;
+}
+
+.juice-imgs:hover .details{
+    transform: translateY(-100%);
+}
+
+.btns{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+/* End Juice Section */
+
+/* Start Contact Section */
+.contact-sections{
+    background-color: var(--primary);
+}
+
+.contact-headings{
+    color: var(--secondary);
+    /* text-shadow: 0 0 10px black; */
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.maps{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.mapcards{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.forms{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+/* End Contact Section */
+
+/* Start Modal Section */
+.modal-boxes{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.btn-close{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+}
+
+.btn-close:focus{
+    outline: 0;
+    box-shadow: none;
+}
+/* End Modal Section */
+
+.footers{
+    background-color: var(--secondary);
+}
+
+.icons{
+    color: var(--primary);
+}
+
+.icons:hover{
+    color: var(--primary);
+}
